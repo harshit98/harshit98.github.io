@@ -16,7 +16,7 @@
 title: Harshit Prasad
 email: harshitprasad28@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Blog on Software Engineering, Travel, Talk, Photography, and Art
+  Blog on Software Engineering, Travel, Talk, and Photography
 
 # Link settings
 baseurl: "" # the subpath of your site, e.g. /blog
