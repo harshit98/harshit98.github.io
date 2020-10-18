@@ -5,7 +5,7 @@ description: Thoughts about the software engineer life
 permalink: /archive/
 ---
 
-Whenever I'm trying to solve a specific problem, I make sure to document everything so that I can remember them in the future. Hopefully, this section will interest you as others did.
+Whenever I'm trying to solve a specific problem in software engineering, I make sure to document everything so that I can remember them in the future. Hopefully, this section will interest you as others did.
 
 <ul>
   {% for post in site.categories.archive %}

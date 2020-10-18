@@ -51,6 +51,9 @@ kramdown:
 # Highlighter settings
 highlighter: rouge
 
+disqus:
+  shortname: harshitprasad
+
 # Publish future
 future: true
 # If you want to link only specific pages in your header, uncomment

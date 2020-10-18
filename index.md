@@ -18,7 +18,7 @@ layout: home
         <p>
             Previously, I received my Bachelor's degree from <a
             href="http://lnmiit.ac.in/">LNM Institute of Information Technology (LNMIIT)</a>, and I had previous internship experience at <a
-            href="https://www.hackerrank.com/products">HackerRank</a>, <a href="https://home.cern/">CERN</a> and <a href="https://fossasia.org/">FOSSASIA</a>. In this blog, I write about my interests in software engineering, travel, talks, photography and art.
+            href="https://www.hackerrank.com/products">HackerRank</a>, <a href="https://home.cern/">CERN</a> and <a href="https://fossasia.org/">FOSSASIA</a>. In this blog, I write about my interests in software engineering, travel, talks, and photography.
         </p>
     </div>
 </div>

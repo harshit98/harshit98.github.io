@@ -14,7 +14,7 @@ related to photography, travel, life, etc. I aspire to become a good software
 engineer. There is still a long way to go, and this site records my progress.
 
 Here, you'll find some of my **life hobbies, tech-work, and notes** on software
-development, systems, and machine learning. I hope that you'll spend a nice time here, feel
+development, systems, and data engineering. I hope that you'll spend a nice time here, feel
 free to look around! 
 
 ## Background
@@ -38,7 +38,7 @@ I worked with Search Team as Frontend Engineer where I successfully built a web 
 ## Strengths
 My strengths are: good team player, excellent coordinating, communication and organizational skills and a wide range of technical skills.
 
-I'm interested in problems concerning software engineering and its applications,
+I'm interested in solving problems concerning software engineering, architecture and its applications,
 especially those that deal with systems and data.
 
 Furthermore, I'm also learning about Distributed Systems and Data Engineeirng.
@@ -48,7 +48,7 @@ Lastly, I'm well-involved in open-source:
 - [GitHub](https://github.com/harshit98)
 - [Linkedin](https://www.linkedin.com/in/harshit-prasad/)
 
-I code mainly in Python and Go, while learning some Scala and React.
+I code mainly in Python and Go, while learning some Scala and Spark.
 
 ## Contact
 

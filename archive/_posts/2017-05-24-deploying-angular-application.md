@@ -19,7 +19,7 @@ You must update both the global package and local package of your project.
 
 Global package:
 
-```
+```bash
 npm uninstall –g @angular/cli
 npm cache clean
 npm install –g @angular/cli@latest
@@ -30,14 +30,14 @@ Make sure to install local packages, you must be inside the project folder.
 To make deployments easier, follow these steps after updating global and local packages:
 
 #### Install angular-cli-ghpages
-```
+```bash
 npm i –g angular–cli–ghpages
 ```
 
 This command is similar to the old github `pages:deploy` command of `@angular/cli` and this script works great with Travis CI.
 
 After installing you should see the changes in the `package.json` as well:
-```
+```json
 “devDependencies”: {
     “angular-cli-ghpages”: “^0.5.0”
 }
@@ -46,7 +46,7 @@ After updating the global and local package, you will notice a new folder named 
 
 #### Add deploy script
 In `package.json` file add the following deploy script:
-```
+```json
 “scripts”: {
     “deploy”: “ng build –prod –aot –base-href=/project_repo_name/ && cp ./dist/index.html ./dist/404.html && ./node_modules/.bin/angular-cli-ghpages –no-silent”
 }
@@ -56,7 +56,7 @@ Our setup has been done and we're ready to deploy test page.
 Now, here it comes to generate a live preview.
 
 Steps:
-```
+```bash
 git checkout working_branch
 ng build
 npm run deploy

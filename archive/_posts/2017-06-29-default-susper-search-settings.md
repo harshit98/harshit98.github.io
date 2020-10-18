@@ -20,7 +20,7 @@ Currently, we have implemented this feature but facing some issues. Here is a sc
 
 Code for implementing this feature:
 
-```
+```js
 $(document).ready(function() {
     var isFirefox = typeof InstallTrigger !== 'undefined';
 
@@ -58,7 +58,7 @@ I picked up the idea of adding an OpenSearch feature. It auto-discovers the sear
 What I did simply:
 
 1. Created an XML file as <yoursitename.xml> and configure it like this:
-    ```
+    ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
     <ShortName>[Name of your website]</ShortName>
@@ -68,7 +68,7 @@ What I did simply:
     ```
 
 2. Add an auto-discovery link in your main `index.html` file:
-    ```
+    ```html
     <link rel="search" href="//susper.com/susper.xml" type="application/opensearchdescription+xml" title="susper.com"/>
     ```
 

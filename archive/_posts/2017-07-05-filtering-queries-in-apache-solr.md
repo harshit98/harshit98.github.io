@@ -29,20 +29,20 @@ Going through Solr documents, I found the solution to filter queries using ‘fq
 
 To explain it better, I’m sharing a code snippet here which has been written to filter out queries:
 
-```
-if (query[‘fq’]) {
-    if (query[‘fq’].includes(‘png’)) {
-        this.resultDisplay = ‘images’;
-        urldata.fq = ‘url_file_ext_s: (png + OR + jpeg + OR + jpg + OR + gif)’;
-    } else if (query[‘fq’].includes(‘avi’)) {
-        this.resultDisplay = ‘videos’;
+```js
+if (query["fq"]) {
+    if (query["fq"].includes("png")) {
+        this.resultDisplay = "images";
+        urldata.fq = "url_file_ext_s: (png + OR + jpeg + OR + jpg + OR + gif)";
+    } else if (query["fq"].includes("avi")) {
+        this.resultDisplay = "videos";
     } else {
-        this.resultDisplay = ‘all’;
+        this.resultDisplay = "all";
     }
 }
 ```
 
-What is ongoing here is that we have subscribed to a query and used if and else conditions. query[‘fq’] simply filters out the query which has been subscribed. include(‘png’) and include(.avi) is clear that we are filtering out the documents with these tabs. This action happens when the user clicks on a tab.
+What is ongoing here is that we have subscribed to a query and used if and else conditions. `query[‘fq’]` simply filters out the query which has been subscribed. `include(‘png’)` and `include('avi')` is clear that we are filtering out the documents with these tabs. This action happens when the user clicks on a tab.
 
 If the user clicks on images tab: files with .png are displayed. If the user clicks on videos tab: files with .avi are displayed.
 
@@ -51,9 +51,9 @@ If the user clicks on images tab: files with .png are displayed. If the user cli
 ![filtering-queries-in-apache-solr](/assets/png/filtering_queries_in_apache_solr.png){:width="720px"}
 {: style="text-align: center;"}
 
-The flowchart above explains more clearly, how fq parameter is filtering out documents without affecting the total number of documents which yacy fetches by indexing web pages based on the query.
+The flowchart above explains more clearly, how `fq` parameter is filtering out documents without affecting the total number of documents.
 
-#### Resources:
+### Resources:
 
 - [Apache Solr - Common Query Parameters](https://wiki.apache.org/solr/CommonQueryParameters)
 - [Apache Solr Query Parameters - Wiki](https://cwiki.apache.org/confluence/display/solr/Common+Query+Parameters)

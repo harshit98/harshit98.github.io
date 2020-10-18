@@ -1,16 +1,14 @@
 ---
 layout: page
 title: Talks
-description: Notes of Lester James V. Miranda
-permalink: /notebook/
+description: Conference Talks and Posters by Harshit Prasad
+permalink: /talks/
 ---
 
-Whenever I want to scratch an itch or solve a specific problem, I make sure
-to document everything so that I can remember them in the future.
-Hopefully, this notebook will interest you as others did.  
+This section highlights about my tech conference talks which I've given till date. I hope you'll also learn something from this section!  
 
 <ul>
-  {% for post in site.categories.notebook %}
+  {% for post in site.categories.talks %}
     <li>
         <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>

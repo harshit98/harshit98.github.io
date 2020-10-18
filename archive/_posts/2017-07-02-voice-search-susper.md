@@ -23,9 +23,9 @@ The explanation might be in Javascript but it has been written following syntax 
 Code for `speech-service.ts`:
 
 This is the code which will control the working of voice search.
-```
-import { Injectable, NgZone } from ‘@angular/core’;
-import { Observable } from ‘rxjs/Rx’;
+```ts
+import { Injectable, NgZone } from "@angular/core";
+import { Observable } from "rxjs/Rx";
 
 interface IWindow extends Window {
   webkitSpeechRecognition: any;
@@ -55,9 +55,9 @@ export class SpeechService {
 
 You can find more details about API following the link which I have provided above in starting. Here `recognition.onend() => observe.complete()` works as an important role here. Many developers forget to use it when working on voice search feature. ***It works like: whenever a user stops speaking, it will automatically understand that voice action has now been completed and the search can be attempted.*** And for this:
 
-```
+```ts
 speechRecognition() {
-  this.speech.record(‘en_US’).subscribe(voice => this.onquery(voice));
+  this.speech.record("en_US").subscribe(voice => this.onquery(voice));
 }
 ```
 
@@ -73,7 +73,7 @@ I have also used a separate module by name `NgZone`.
 
 This feature only works in Google Chrome browser and for Firefox it doesn’t. So, for Firefox browser there was no need to show this feature since voice search does not work Firefox. What we did simply use CSS code like this:
 
-```
+```scss
 @–moz–document url–prefix() {
   .microphone {
     display: none;
