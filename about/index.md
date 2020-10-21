@@ -25,7 +25,7 @@ Prior to that, I obtained my Bachelors degree in Electronics and Communication E
 
 #### [HackerRank](https://www.hackerrank.com/products)
 
-I worked with HackerRank For Work (HRW) team on Frontend tasks in React as well as on Backend tasks in Ruby on Rails related to performance improvements in the relational database.
+I worked on Enterprise Product including frontend tasks in React to improve the user experience and backend tasks in Ruby on Rails to eliminiate and optimize the performance of the relational database slow queries.
 
 #### [CERN - Google Summer of Code 2018](https://home.cern/home)
 
