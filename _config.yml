@@ -54,6 +54,9 @@ highlighter: rouge
 disqus:
   shortname: harshitprasad
 
+# Google services
+google_analytics: UA-180934057-1
+
 # Publish future
 future: true
 # If you want to link only specific pages in your header, uncomment
