@@ -19,7 +19,7 @@ free to look around!
 
 ## Background
 
-I'm currently a Software Engineer at [Grofers](https://grofers.com/), India's leading online grocery platform.
+I'm currently working as Backend Software Engineer at [Grofers](https://grofers.com/), India's leading online grocery platform.
 
 Prior to that, I obtained my Bachelors degree in Electronics and Communication Engineering from [LNM Institute of Information Technology](https://www.lnmiit.ac.in/). Before graduation, I've spent my summers by interning with multiple open source organizations as Software Engineer. Here are some of them:
 
