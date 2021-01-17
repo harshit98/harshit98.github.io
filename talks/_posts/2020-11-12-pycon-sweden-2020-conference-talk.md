@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PyCon Sweden 2020 - Building Production Ready Search using Python and Elasticsearch"
+title: "PyCon Sweden - Building Production Ready Search using Python and Elasticsearch"
 date: 2020-11-12
 category: talks
 comments: true
