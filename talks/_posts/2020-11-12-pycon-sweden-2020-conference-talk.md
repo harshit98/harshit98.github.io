@@ -12,11 +12,7 @@ tags: [talk, pycon, sweden, conference, search-engine, elasticsearch, python]
 
 This blog summarises my experience around giving my first international talk of 30 mins on "Building Production Ready Search using Elasticsearch and Python".
 
-<div align="center">
-      <a href="https://www.youtube.com/watch?v=x80gdm9MisI">
-         <img src="https://img.youtube.com/vi/x80gdm9MisI/0.jpg" style="width:100%;">
-      </a>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x80gdm9MisI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It was fun and I learnt a lot how to present my learnings in a conference talk.
 
