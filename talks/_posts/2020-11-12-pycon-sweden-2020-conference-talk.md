@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PyCon Sweden 2020 - Building Production Ready Search Engine using Python and Elasticsearch"
+title: "PyCon Sweden 2020 - Building Production Ready Search using Python and Elasticsearch"
 date: 2020-11-12
 category: talks
 comments: true
@@ -12,7 +12,7 @@ tags: [talk, pycon, sweden, conference, search-engine, elasticsearch, python]
 
 This blog summarises my experience around giving my first international talk of 30 mins on "Building Production Ready Search using Elasticsearch and Python".
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x80gdm9MisI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="415" src="https://www.youtube.com/embed/x80gdm9MisI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It was fun and I learnt a lot how to present my learnings in a conference talk.
 
@@ -20,7 +20,7 @@ Explained a lot of things related to search and how they can be solved using Ela
 
 In this talk, I discussed about how data indexing, retrieval of documents and document scoring (or boosting) works and can be implemented using Python.
 
-GitHub Repository: https://github.com/harshit98/Personalized-Search
+GitHub Repository: <a>https://github.com/harshit98/Personalized-Search</a>
 
 ## Take Away Points
 
@@ -30,4 +30,4 @@ GitHub Repository: https://github.com/harshit98/Personalized-Search
 
 - Reserve 5 mins at the end of your talk. Interact with audience at the end via Q/A session.
 
-In my upcoming blogs in "#Talks" category, I will be going through my experience in detail and learnings.
+In my upcoming blogs in "#Talks" category, I'm planning to give more talks in international conferences. I will be writing my experience and learnings more in detail. Stay tuned!
